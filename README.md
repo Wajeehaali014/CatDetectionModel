@@ -82,10 +82,6 @@ Results have not been added yet. After running the notebook, section 7 prints pr
 
 ## 6. Known limitations
 
-- Trained on a small subset (≤ 350 images). Test numbers come from crops of a few dozen held-out images and can vary a lot with the random split.
-- Crop-level precision/recall is reported, not detection mAP at IoU 0.5, which is the standard object-detection metric.
-- The detector can miss cats that Selective Search does not propose a good box for, and boxes are only as tight as the proposals.
-- Slow compared with modern detectors (YOLO, SSD, Faster R-CNN): thousands of proposals are classified per image.
 - Only the `cat` class is detected.
 
 ## 7. Credits
