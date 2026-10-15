@@ -1,0 +1,8 @@
+tensorflow
+numpy
+matplotlib
+opencv-contrib-python
+pillow
+tqdm
+scikit-learn
+notebook
