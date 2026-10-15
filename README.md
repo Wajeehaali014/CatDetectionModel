@@ -3,15 +3,6 @@
 Object detection mini-project that finds **cats in an image** and draws bounding boxes around them.
 It follows the classic R-CNN idea: propose candidate regions, classify each region with a CNN, then keep the best boxes.
 
-> Course project — [Course name / code], [University / Department]
-
-## Group members
-
-| Name | Roll No. |
-|------|----------|
-| [Name 1] | [Roll no.] |
-| [Name 2] | [Roll no.] |
-
 ## 1. How it works
 
 1. **Ground truth** – every `cat` bounding box is read from the Pascal-VOC style `.xml` annotation files.
